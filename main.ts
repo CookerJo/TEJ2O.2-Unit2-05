@@ -12,7 +12,7 @@ let temperatureKelvin: number
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
-// temperature 
+// convert temperature into kelvin
 input.onButtonPressed(Button.A, function () {
     temperatureCelsius = input.temperature()
     temperatureKelvin = Math.round(temperatureCelsius + 273.15)
